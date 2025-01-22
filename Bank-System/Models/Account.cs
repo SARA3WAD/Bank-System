@@ -4,6 +4,7 @@ namespace Bank_System.Models
 {
     public class Account
     {
+        //New Commit
         public int AccountId { get; set; }
         [Required,MaxLength(20)]
         public string AccountNumber { get; set; }
